@@ -6,8 +6,8 @@ export default class StudentRow extends Component {
     return (
         <tr>
             <th>{student.id}</th>
-            <td>{student.firstName}</td>
-            <td>{student.lastName}</td>
+            <td>{student.first_name}</td>
+            <td>{student.last_name}</td>
         </tr>
 
     );

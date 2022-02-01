@@ -17,7 +17,7 @@ export default class StudentList extends Component {
             .then(data => {
                 console.log(data)
                 this.setState({
-                    student: data.MRData
+                    students: data
                 })
             })
     }
